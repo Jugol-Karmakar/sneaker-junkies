@@ -41,4 +41,8 @@
   .select-btn {
     width: 100%;
   }
+
+  .order-title {
+    font-size: 12px;
+  }
 }
