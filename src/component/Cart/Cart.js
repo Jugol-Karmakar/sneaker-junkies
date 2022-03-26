@@ -5,6 +5,10 @@ import "./Cart.css";
 const Cart = (props) => {
   const { cartAdd } = props;
 
+  const cartClearHandel = () => {
+    console.log("clicked");
+  };
+
   return (
     <div className="cart">
       <h3 className="order-title">Order Summary</h3>
@@ -14,7 +18,9 @@ const Cart = (props) => {
 
       <div className="select-btn">
         <button className="choose-btn">Choose 1 For Me</button>
-        <button className="again-btn">Choose Again</button>
+        <button onClick={cartClearHandel} className="again-btn">
+          Choose Again
+        </button>
       </div>
     </div>
   );

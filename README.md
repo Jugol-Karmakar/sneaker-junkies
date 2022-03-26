@@ -1,6 +1,6 @@
 # Sneaker Junkies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click Here to live Site Link [https://sneakers-junkies-jdev21.netlify.app](https://sneakers-junkies-jdev21.netlify.app).
 
 ## Available Scripts
 
