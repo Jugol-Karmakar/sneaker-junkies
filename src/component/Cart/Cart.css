@@ -22,7 +22,7 @@
   background-color: rgb(255, 104, 4);
   color: rgb(0, 0, 0);
   margin-bottom: 10px;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   cursor: pointer;
 }
@@ -37,6 +37,20 @@
   font-size: 14px;
   cursor: pointer;
   margin-bottom: 20px;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: rgb(236, 177, 175);
+  margin-bottom: 5px;
+}
+.product-details img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 576px) {
