@@ -17,7 +17,7 @@ const Cart = (props) => {
       ))}
 
       <div className="select-btn">
-        <button className="choose-btn">Choose 1 For Me</button>
+        <button className="choose-btn">Choose For 1</button>
         <button onClick={cartClearHandel} className="again-btn">
           Choose Again
         </button>

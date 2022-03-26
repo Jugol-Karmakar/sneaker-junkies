@@ -16,6 +16,7 @@
 }
 
 .choose-btn {
+  display: block;
   padding: 10px 15px;
   border: none;
   background-color: rgb(255, 104, 4);
@@ -27,6 +28,7 @@
 }
 
 .again-btn {
+  display: block;
   padding: 10px 15px;
   border: none;
   background-color: rgb(255, 127, 6);
