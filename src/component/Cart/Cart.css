@@ -36,3 +36,9 @@
   cursor: pointer;
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 576px) {
+  .select-btn {
+    width: 100%;
+  }
+}

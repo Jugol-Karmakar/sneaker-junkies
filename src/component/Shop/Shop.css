@@ -18,18 +18,9 @@
   margin-bottom: 50px;
 }
 
-/* @media only screen and (max-width: 576px) {
-  .shop-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-  }
+@media only screen and (max-width: 576px) {
   .product-container {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
-
-  .cart-container {
-  }
-} */
+}
